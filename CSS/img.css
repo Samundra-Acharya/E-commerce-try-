@@ -1,0 +1,24 @@
+.heading div img{
+    display: inline-block ;
+    vertical-align: middle;
+    margin:2px;
+    
+}
+.heading div img::before{
+    background-color:#0284C7;
+}
+.about_right img{
+    border: 1px #3F3D56;
+    width: 261px;
+    height: 261px;
+    border-radius: 50%;
+    margin-left:220px;
+    margin-right:125px;
+}
+.img-wrapper{
+    border: 1px #3F3D56;
+    width: 50px;
+    height: 50px;
+    margin-right:2px;
+    padding-right: 4px;
+}

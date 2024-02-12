@@ -1,17 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../CSS/reset.css">
+    <title>Bikal Maharjan</title>
+    <link rel="stylesheet" href="../Css/reset.css">
+    <link rel="stylesheet" href="../Css/font.css">
+    <link rel="stylesheet" href="../Css/img.css">
+    <link rel="stylesheet" href="../Css/style.css">
+    <link rel="stylesheet" href="../Css/media_query.css">
 </head>
+
 <body>
+    <nav class="heading">
+        <h3>MY PORTFOLIO</h3>
+        <div class="drawer" id="drawer">
+            <img id="drawerIcon" src="../Resource/iconmonstr-line-three-horizontal-lined.svg" alt="Drawer Icon">
+            <span class="close">
+                <div class="cross">
+                    <img id="closeIcon" src="../Resource/iconmonstr-x-mark-circle-filled.svg" alt="Close Icon">
+                </div>
+            </span>
+            <ul>
+                <li><a href="../Html/about.html">ABOUT</a></li>
+                <li><a href="../Html/about.html">EDUCATION</a></li>
+                <li><a href="../Html/skill.html">SKILLS</a></li>
+                <li><a href="../Html/contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="whatsapp-icon">
+            <img src="../Resource/iconmonstr-whatsapp-1.svg" alt="WhatsApp Icon">Let's Talk
+        </div>
+    </nav>
+    
+    <div class="about">
+        <div class="about_left">
+            <div>
+                <header>Hello I'am Bikal Maharjan</header>
+                <h1>I'am a Beginner Web Developer</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam ipsa, omnis vel quasi impedit ut earum corrupti aliquam eum nemo iste? Beatae amet non temporibus alias. Doloremque ea rerum hic!</p>
+            </div>
+        </div>
+        <div class="about_right">
+            <img src="../Resource/IMG_20230319_162619.jpg" alt="">
+        </div>
+    </div>
 
-    <section></section>
-    <section></section>
-    <section></section>
+    <script>
+        document.getElementById('drawerIcon').onclick = function() {
+            document.getElementById("drawer").classList.add("open");
+        };
 
-    <script src="../SCRIPT/reset.js"></script>
+        document.getElementById('closeIcon').onclick = function() {
+            document.getElementById("drawer").classList.remove("open");
+        };
+    </script>
+
 </body>
+
 </html>
