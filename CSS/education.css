@@ -1,0 +1,43 @@
+  .box {
+    border: 3px solid black;
+    width: 1000px;
+    height: 500px;
+    margin-left: 18%;
+  }
+
+  .box_left {
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 5px;
+    top: 50px;
+    left: 20%;
+    height: 150px;
+    width: 400px;
+  }
+
+  .box_right {
+    position: absolute;
+    border-radius: 5px;
+    border: 1px solid black;
+    top: 250px;
+    right: 18%;
+    height: 150px;
+    width: 400px;
+  }
+
+.box_center {
+    position: absolute;
+    border: 1px solid black;
+    height: 350px;
+    width: 20px;
+    top: 50px;
+    left: 50%
+}    
+
+
+/* 
+
+    source: 1) https://www.w3schools.com/css/css_positioning.asp
+            2) https://www.w3schools.com/css/css_border_rounded.asp
+
+*/
