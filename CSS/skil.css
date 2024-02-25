@@ -1,0 +1,25 @@
+.picture-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the container horizontally */
+    padding: 1%;
+  }
+
+  .picture-container .col{ 
+    height: 100px;
+    width: 100px;
+  }
+
+  .picture-container .col img {
+    width: auto;
+    height: auto;
+}
+
+.picture-container .col p{
+    padding-left: 25%;
+}
+
+div .row{
+    display: flex;
+    justify-content: center;
+}
